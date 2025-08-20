@@ -43,9 +43,9 @@ namespace Temperatura
                 pibClima.Image = Properties.Resources.quente1;
 
 
-
+              
             }
-            
+            lblData.Text = DateTime.Now.ToString();
         }
     }
 }

@@ -33,6 +33,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnVerificarClima = new System.Windows.Forms.Button();
             this.pibClima = new System.Windows.Forms.PictureBox();
+            this.lblData = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pibClima)).BeginInit();
             this.SuspendLayout();
             // 
@@ -83,11 +84,20 @@
             this.pibClima.TabIndex = 4;
             this.pibClima.TabStop = false;
             // 
+            // lblData
+            // 
+            this.lblData.AutoSize = true;
+            this.lblData.Location = new System.Drawing.Point(246, 428);
+            this.lblData.Name = "lblData";
+            this.lblData.Size = new System.Drawing.Size(0, 13);
+            this.lblData.TabIndex = 6;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblData);
             this.Controls.Add(this.pibClima);
             this.Controls.Add(this.btnVerificarClima);
             this.Controls.Add(this.label1);
@@ -108,6 +118,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnVerificarClima;
         private System.Windows.Forms.PictureBox pibClima;
+        private System.Windows.Forms.Label lblData;
     }
 }
 
